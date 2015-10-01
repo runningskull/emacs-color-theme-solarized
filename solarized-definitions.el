@@ -278,6 +278,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
              (eshell-ls-symlink ((t (,@fg-cyan))))
              (eshell-ls-unreadable ((t (,@fg-base00))))
              (eshell-prompt ((t (,@fmt-bold ,@fg-green))))
+	     ;; hideshow-vis
+	     (hs-face ((t (,@fmt-ital ,@bg-base03 ,@fg-base01 :box (:line-width -1 :color ,base02)))))  
              ;; font-lock
              (font-lock-builtin-face ((t (,@fmt-none ,@fg-green)))) ; Statement
              (font-lock-comment-face ((t (,@fmt-ital ,@fg-base01)))) ; Comment
